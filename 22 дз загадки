@@ -1,0 +1,22 @@
+print("какой день находится между понедельником и средой?")
+a = int(input())
+while a != "вторник" and a !="четверг":
+    print("не тот день")
+    a = input()
+print("верно")
+
+
+print("сколько месяцев в году?")
+b = int(input())
+while b != 12:
+    print("не то число")
+    b = int(input())
+print("верно")
+
+
+print("как зовут Путина?")
+c = input()
+while c != "Вова" and c != "Владимир":
+    print("другое имя")
+    c = input()
+print("верно")
